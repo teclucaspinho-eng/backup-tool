@@ -1,0 +1,32 @@
+# Ambientes virtuais e cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Testes e linters
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Variáveis de ambiente e segredos (apenas .env.example deve ser versionado)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Backups e dumps locais temporários
+*.sql
+*.sql.gz
+*.dump
+*.tar.gz
+
+# IDEs e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
